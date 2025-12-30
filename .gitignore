@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+
+# Training artifacts
+checkpoints/
+runs/
+logs/
+*.pt
+*.pth
+*.ckpt
+
+# Dataset
+dataset/
+data/
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
