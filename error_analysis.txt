@@ -1,0 +1,270 @@
+UAS=0.8394, LAS=0.7521
+
+=== QUALITATIVE ERRORS ===
+[Sent 0] Thanh bắt chuyện với Hùng và nói : " Tôi trông ông quen quen ? " .
+ token='ông' POS=NOUN
+ gold=(10, 'obj') pred=(12, 'nsubj') TYPE=HEAD
+
+[Sent 0] Thanh bắt chuyện với Hùng và nói : " Tôi trông ông quen quen ? " .
+ token='quen quen' POS=VERB
+ gold=(10, 'compound') pred=(10, 'xcomp') TYPE=REL
+
+[Sent 1] Hùng giật mình : " Sao tôi không biết ông nhỉ ? " .
+ token='Sao' POS=PRON
+ gold=(8, 'discourse') pred=(8, 'obl') TYPE=REL
+
+[Sent 2] Thanh quay sang Hùng : " ông quê đâu nhỉ ?
+ token='nhỉ' POS=INTJ
+ gold=(9, 'discourse') pred=(8, 'discourse') TYPE=HEAD
+
+[Sent 2] Thanh quay sang Hùng : " ông quê đâu nhỉ ?
+ token='?' POS=PUNCT
+ gold=(2, 'punct') pred=(8, 'punct') TYPE=HEAD
+
+[Sent 3] À , tôi còn có danh sách lớp đây này " .
+ token=',' POS=PUNCT
+ gold=(1, 'punct') pred=(5, 'punct') TYPE=HEAD
+
+[Sent 3] À , tôi còn có danh sách lớp đây này " .
+ token='lớp' POS=NOUN
+ gold=(6, 'nmod') pred=(6, 'compound') TYPE=REL
+
+[Sent 4] Nói rồi Thanh giở danh sách lớp đọc vanh vách tên tuổi , địa chỉ , điện thoại của Hùng .
+ token='lớp' POS=NOUN
+ gold=(5, 'nmod') pred=(5, 'compound') TYPE=REL
+
+[Sent 5] Có lẽ vì lịch sự Hùng cũng nói : " Tôi cũng thấy hình như gặp ông ở đâu " .
+ token='vì' POS=ADP
+ gold=(3, 'case') pred=(3, 'mark') TYPE=REL
+
+[Sent 5] Có lẽ vì lịch sự Hùng cũng nói : " Tôi cũng thấy hình như gặp ông ở đâu " .
+ token='lịch sự' POS=ADJ
+ gold=(6, 'advcl') pred=(6, 'nsubj') TYPE=REL
+
+[Sent 5] Có lẽ vì lịch sự Hùng cũng nói : " Tôi cũng thấy hình như gặp ông ở đâu " .
+ token='Hùng' POS=PROPN
+ gold=(6, 'nsubj') pred=(3, 'nmod') TYPE=HEAD
+
+[Sent 5] Có lẽ vì lịch sự Hùng cũng nói : " Tôi cũng thấy hình như gặp ông ở đâu " .
+ token='hình như' POS=X
+ gold=(13, 'discourse') pred=(13, 'nsubj') TYPE=REL
+
+[Sent 7] Có lẽ đã thấy đủ , bà Loan xách túi đi ra với cả ban nhạc trong lòng .
+ token='Có lẽ' POS=X
+ gold=(3, 'discourse') pred=(3, 'obl') TYPE=REL
+
+[Sent 7] Có lẽ đã thấy đủ , bà Loan xách túi đi ra với cả ban nhạc trong lòng .
+ token='đủ' POS=ADJ
+ gold=(3, 'advmod') pred=(3, 'xcomp') TYPE=REL
+
+[Sent 7] Có lẽ đã thấy đủ , bà Loan xách túi đi ra với cả ban nhạc trong lòng .
+ token='đi' POS=VERB
+ gold=(8, 'xcomp') pred=(8, 'conj') TYPE=REL
+
+[Sent 8] Theo chân cửu vạn , chúng tôi đã chứng kiến con đường vận chuyển hàng lậu đầy sôi động và cũng không kém phần tinh vi , phức tạp .
+ token='đường' POS=NOUN
+ gold=(14, 'nsubj') pred=(7, 'obj') TYPE=HEAD
+
+[Sent 8] Theo chân cửu vạn , chúng tôi đã chứng kiến con đường vận chuyển hàng lậu đầy sôi động và cũng không kém phần tinh vi , phức tạp .
+ token='đầy' POS=ADJ
+ gold=(14, 'advmod') pred=(14, 'amod') TYPE=REL
+
+[Sent 8] Theo chân cửu vạn , chúng tôi đã chứng kiến con đường vận chuyển hàng lậu đầy sôi động và cũng không kém phần tinh vi , phức tạp .
+ token='sôi động' POS=VERB
+ gold=(7, 'compound') pred=(10, 'xcomp') TYPE=HEAD
+
+[Sent 8] Theo chân cửu vạn , chúng tôi đã chứng kiến con đường vận chuyển hàng lậu đầy sôi động và cũng không kém phần tinh vi , phức tạp .
+ token='và' POS=CCONJ
+ gold=(20, 'cc') pred=(18, 'cc') TYPE=HEAD
+
+[Sent 8] Theo chân cửu vạn , chúng tôi đã chứng kiến con đường vận chuyển hàng lậu đầy sôi động và cũng không kém phần tinh vi , phức tạp .
+ token='cũng' POS=ADV
+ gold=(20, 'advmod') pred=(18, 'advmod') TYPE=HEAD
+
+[Sent 8] Theo chân cửu vạn , chúng tôi đã chứng kiến con đường vận chuyển hàng lậu đầy sôi động và cũng không kém phần tinh vi , phức tạp .
+ token='không' POS=ADV
+ gold=(20, 'advmod') pred=(18, 'advmod') TYPE=HEAD
+
+[Sent 8] Theo chân cửu vạn , chúng tôi đã chứng kiến con đường vận chuyển hàng lậu đầy sôi động và cũng không kém phần tinh vi , phức tạp .
+ token='kém' POS=ADJ
+ gold=(20, 'advmod') pred=(9, 'conj') TYPE=HEAD
+
+[Sent 8] Theo chân cửu vạn , chúng tôi đã chứng kiến con đường vận chuyển hàng lậu đầy sôi động và cũng không kém phần tinh vi , phức tạp .
+ token='phần' POS=NOUN
+ gold=(20, 'clf') pred=(18, 'obj') TYPE=HEAD
+
+[Sent 8] Theo chân cửu vạn , chúng tôi đã chứng kiến con đường vận chuyển hàng lậu đầy sôi động và cũng không kém phần tinh vi , phức tạp .
+ token='tinh vi' POS=ADJ
+ gold=(14, 'conj') pred=(19, 'amod') TYPE=HEAD
+
+[Sent 9] Thanh vỗ đùi đánh đét rồi hô váng nhà : " Thôi chết rồi !
+ token='váng' POS=ADJ
+ gold=(7, 'advmod') pred=(7, 'xcomp') TYPE=REL
+
+[Sent 9] Thanh vỗ đùi đánh đét rồi hô váng nhà : " Thôi chết rồi !
+ token='nhà' POS=NOUN
+ gold=(8, 'obj') pred=(7, 'obj') TYPE=HEAD
+
+[Sent 9] Thanh vỗ đùi đánh đét rồi hô váng nhà : " Thôi chết rồi !
+ token='!' POS=PUNCT
+ gold=(2, 'punct') pred=(7, 'punct') TYPE=HEAD
+
+[Sent 10] Thanh đập vai Hùng hét to : " cô ơi , hóa ra con rể tương lai của cô đang học cùng lớp tại chức với cháu .
+ token='Hùng' POS=PROPN
+ gold=(3, 'nmod') pred=(2, 'obj') TYPE=HEAD
+
+[Sent 10] Thanh đập vai Hùng hét to : " cô ơi , hóa ra con rể tương lai của cô đang học cùng lớp tại chức với cháu .
+ token='hét' POS=VERB
+ gold=(2, 'xcomp') pred=(2, 'conj') TYPE=REL
+
+[Sent 10] Thanh đập vai Hùng hét to : " cô ơi , hóa ra con rể tương lai của cô đang học cùng lớp tại chức với cháu .
+ token='to' POS=ADJ
+ gold=(5, 'advmod') pred=(5, 'xcomp') TYPE=REL
+
+[Sent 10] Thanh đập vai Hùng hét to : " cô ơi , hóa ra con rể tương lai của cô đang học cùng lớp tại chức với cháu .
+ token='cô' POS=NOUN
+ gold=(19, 'vocative') pred=(19, 'parataxis') TYPE=REL
+
+[Sent 10] Thanh đập vai Hùng hét to : " cô ơi , hóa ra con rể tương lai của cô đang học cùng lớp tại chức với cháu .
+ token=',' POS=PUNCT
+ gold=(9, 'punct') pred=(19, 'punct') TYPE=HEAD
+
+[Sent 10] Thanh đập vai Hùng hét to : " cô ơi , hóa ra con rể tương lai của cô đang học cùng lớp tại chức với cháu .
+ token='hóa ra' POS=X
+ gold=(19, 'discourse') pred=(19, 'parataxis') TYPE=REL
+
+[Sent 10] Thanh đập vai Hùng hét to : " cô ơi , hóa ra con rể tương lai của cô đang học cùng lớp tại chức với cháu .
+ token='cùng' POS=ADJ
+ gold=(21, 'advmod') pred=(19, 'xcomp') TYPE=HEAD
+
+[Sent 10] Thanh đập vai Hùng hét to : " cô ơi , hóa ra con rể tương lai của cô đang học cùng lớp tại chức với cháu .
+ token='lớp' POS=NOUN
+ gold=(19, 'obj') pred=(20, 'obj') TYPE=HEAD
+
+[Sent 10] Thanh đập vai Hùng hét to : " cô ơi , hóa ra con rể tương lai của cô đang học cùng lớp tại chức với cháu .
+ token='cháu' POS=NOUN
+ gold=(19, 'obl') pred=(20, 'obl') TYPE=HEAD
+
+[Sent 11] Bà Loan rành rẽ : " mày chỉ huyên thuyên , anh Hùng tốt nghiệp đi làm mấy năm rồi " .
+ token=':' POS=PUNCT
+ gold=(12, 'punct') pred=(8, 'punct') TYPE=HEAD
+
+[Sent 11] Bà Loan rành rẽ : " mày chỉ huyên thuyên , anh Hùng tốt nghiệp đi làm mấy năm rồi " .
+ token='"' POS=PUNCT
+ gold=(12, 'punct') pred=(8, 'punct') TYPE=HEAD
+
+[Sent 11] Bà Loan rành rẽ : " mày chỉ huyên thuyên , anh Hùng tốt nghiệp đi làm mấy năm rồi " .
+ token='huyên thuyên' POS=ADJ
+ gold=(12, 'parataxis') pred=(3, 'parataxis') TYPE=HEAD
+
+[Sent 11] Bà Loan rành rẽ : " mày chỉ huyên thuyên , anh Hùng tốt nghiệp đi làm mấy năm rồi " .
+ token='tốt nghiệp' POS=VERB
+ gold=(3, 'parataxis') pred=(8, 'parataxis') TYPE=HEAD
+
+[Sent 11] Bà Loan rành rẽ : " mày chỉ huyên thuyên , anh Hùng tốt nghiệp đi làm mấy năm rồi " .
+ token='rồi' POS=ADV
+ gold=(13, 'advmod') pred=(16, 'advmod') TYPE=HEAD
+
+[Sent 11] Bà Loan rành rẽ : " mày chỉ huyên thuyên , anh Hùng tốt nghiệp đi làm mấy năm rồi " .
+ token='"' POS=PUNCT
+ gold=(12, 'punct') pred=(8, 'punct') TYPE=HEAD
+
+[Sent 11] Bà Loan rành rẽ : " mày chỉ huyên thuyên , anh Hùng tốt nghiệp đi làm mấy năm rồi " .
+ token='.' POS=PUNCT
+ gold=(3, 'punct') pred=(8, 'punct') TYPE=HEAD
+
+[Sent 12] Cổng trắng , Thác Ném , quốc lộ 1 cũ ... - những địa danh đã trở nên quá quen thuộc trên bản đồ hàng lậu đi về Lạng Sơn .
+ token='Cổng trắng' POS=PROPN
+ gold=(0, 'root') pred=(13, 'nsubj') TYPE=HEAD
+
+[Sent 12] Cổng trắng , Thác Ném , quốc lộ 1 cũ ... - những địa danh đã trở nên quá quen thuộc trên bản đồ hàng lậu đi về Lạng Sơn .
+ token='1' POS=NUM
+ gold=(5, 'compound') pred=(5, 'nummod') TYPE=REL
+
+[Sent 12] Cổng trắng , Thác Ném , quốc lộ 1 cũ ... - những địa danh đã trở nên quá quen thuộc trên bản đồ hàng lậu đi về Lạng Sơn .
+ token='trở nên' POS=VERB
+ gold=(1, 'appos') pred=(0, 'root') TYPE=HEAD
+
+[Sent 12] Cổng trắng , Thác Ném , quốc lộ 1 cũ ... - những địa danh đã trở nên quá quen thuộc trên bản đồ hàng lậu đi về Lạng Sơn .
+ token='đi' POS=VERB
+ gold=(18, 'acl') pred=(17, 'acl') TYPE=HEAD
+
+[Sent 12] Cổng trắng , Thác Ném , quốc lộ 1 cũ ... - những địa danh đã trở nên quá quen thuộc trên bản đồ hàng lậu đi về Lạng Sơn .
+ token='Lạng Sơn' POS=PROPN
+ gold=(20, 'obl') pred=(20, 'obj') TYPE=REL
+
+[Sent 12] Cổng trắng , Thác Ném , quốc lộ 1 cũ ... - những địa danh đã trở nên quá quen thuộc trên bản đồ hàng lậu đi về Lạng Sơn .
+ token='.' POS=PUNCT
+ gold=(1, 'punct') pred=(13, 'punct') TYPE=HEAD
+
+[Sent 13] Bên kia núi , chỉ cách vài kilômet là những kho hàng lậu đang chờ mang đi .
+ token='Bên' POS=NOUN
+ gold=(11, 'nsubj') pred=(11, 'obl') TYPE=REL
+
+
+=== ERROR BY POS ===
+      NOUN | total=3029 | head_err=0.172 | rel_err=0.096
+      VERB | total=2134 | head_err=0.209 | rel_err=0.112
+     PUNCT | total=1703 | head_err=0.206 | rel_err=0.000
+       ADV | total=1020 | head_err=0.087 | rel_err=0.039
+       ADJ | total= 719 | head_err=0.202 | rel_err=0.249
+       ADP | total= 645 | head_err=0.099 | rel_err=0.026
+     PROPN | total= 560 | head_err=0.104 | rel_err=0.102
+      PRON | total= 531 | head_err=0.105 | rel_err=0.111
+     SCONJ | total= 382 | head_err=0.134 | rel_err=0.230
+       NUM | total= 269 | head_err=0.126 | rel_err=0.067
+       AUX | total= 242 | head_err=0.062 | rel_err=0.033
+       DET | total= 161 | head_err=0.062 | rel_err=0.006
+     CCONJ | total= 144 | head_err=0.056 | rel_err=0.000
+      PART | total=  89 | head_err=0.191 | rel_err=0.034
+         X | total=  40 | head_err=0.225 | rel_err=0.475
+      INTJ | total=  17 | head_err=0.176 | rel_err=0.000
+       SYM | total=   7 | head_err=0.286 | rel_err=0.000
+
+=== ERROR BY SENTENCE LENGTH ===
+        10 | total=6146 | head_err=0.158 | rel_err=0.086
+        20 | total=4261 | head_err=0.180 | rel_err=0.094
+         0 | total=1285 | head_err=0.112 | rel_err=0.071
+
+=== ERROR BY DEPENDENCY DISTANCE ===
+       2-3 | total=4747 | head_err=0.126 | rel_err=0.041
+       0-1 | total=3966 | head_err=0.128 | rel_err=0.166
+       4-6 | total=1670 | head_err=0.241 | rel_err=0.063
+     7-100 | total=1309 | head_err=0.280 | rel_err=0.047
+
+=== ERROR BY RELATION TYPE ===
+     punct | total=1703 | head_err=0.206 | rel_err=0.000
+    advmod | total=1096 | head_err=0.115 | rel_err=0.091
+     nsubj | total=1009 | head_err=0.131 | rel_err=0.008
+       obj | total= 867 | head_err=0.089 | rel_err=0.048
+      root | total= 800 | head_err=0.139 | rel_err=0.000
+       obl | total= 741 | head_err=0.209 | rel_err=0.147
+      case | total= 565 | head_err=0.065 | rel_err=0.016
+      nmod | total= 562 | head_err=0.183 | rel_err=0.249
+  compound | total= 532 | head_err=0.103 | rel_err=0.353
+      conj | total= 468 | head_err=0.256 | rel_err=0.085
+       det | total= 378 | head_err=0.093 | rel_err=0.032
+     xcomp | total= 362 | head_err=0.163 | rel_err=0.177
+      mark | total= 333 | head_err=0.126 | rel_err=0.168
+       acl | total= 295 | head_err=0.264 | rel_err=0.146
+     advcl | total= 275 | head_err=0.407 | rel_err=0.149
+       clf | total= 250 | head_err=0.140 | rel_err=0.000
+    nummod | total= 238 | head_err=0.109 | rel_err=0.025
+      amod | total= 235 | head_err=0.106 | rel_err=0.085
+        cc | total= 224 | head_err=0.080 | rel_err=0.129
+ discourse | total= 134 | head_err=0.172 | rel_err=0.187
+       aux | total= 131 | head_err=0.023 | rel_err=0.000
+ parataxis | total= 128 | head_err=0.352 | rel_err=0.164
+     ccomp | total= 107 | head_err=0.243 | rel_err=0.187
+       cop | total= 102 | head_err=0.108 | rel_err=0.000
+     appos | total=  53 | head_err=0.491 | rel_err=0.302
+     csubj | total=  39 | head_err=0.615 | rel_err=0.026
+      flat | total=  32 | head_err=0.344 | rel_err=0.312
+      iobj | total=  11 | head_err=0.273 | rel_err=0.727
+dislocated | total=   9 | head_err=0.333 | rel_err=0.667
+     fixed | total=   8 | head_err=0.625 | rel_err=0.375
+       dep | total=   3 | head_err=0.333 | rel_err=0.667
+  vocative | total=   2 | head_err=0.500 | rel_err=0.500
+
+ROOT WRONG: 111
+PUNCT HEAD WRONG: 350
